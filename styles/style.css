@@ -66,23 +66,24 @@ button:hover{background-color: lightslategrey;}
 .banner-subtitle{
     color: rgba(14, 14, 14, 0.5);
 font-size: 24px;
-font-weight: 500;;
+font-weight: 500px;
 text-align: left;
 }
 .banner-btn{
     color: white;
 font-size: 18px;
-font-weight: 600;
+font-weight: 600px;
 text-align: left;
 border-radius: 8px;
 border: 0px;
 background: rgb(0, 106, 80);
 padding: 20px 50px;
+cursor: pointer;
 }
 /* vision styles */
 .vision-title{color: rgb(14, 14, 14);
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 48px;
 }
 .vision{ 
@@ -92,7 +93,7 @@ padding: 20px 50px;
 .vision-description{
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
-font-weight: 400;
+font-weight: 400px;
 margin-bottom: 32px;
 }
 /* card style */
@@ -126,17 +127,17 @@ height: 53.09px;
 .card-description{
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
-font-weight: 400;
+font-weight: 400px;
 line-height: 24px;
 margin-bottom: 30px;
 }
 .card-btn{color: white;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 600px;
     text-align: center;
     padding: 11px 20px;
     border-radius: 8px;
-    
+    cursor: pointer;
     border: 0px;
 height: 50px;
 width: 150px;}
@@ -155,14 +156,14 @@ width: 150px;}
 .news-heading{
     color: rgb(14, 14, 14);
 font-size: 40px;
-font-weight: 700;
+font-weight: 700px;
 line-height: 48px;
 text-align: left;
 }
 .news-headline{
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
-font-weight: 400;
+font-weight: 400px;
 line-height: 24px;
 text-align: left;
 margin-bottom: 32px;
@@ -189,7 +190,7 @@ margin-bottom: 32px;
 .news-title{
     color: rgba(14, 14, 14, 0.8);
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 38px;
     text-align: left;
     margin-bottom: 12px;
@@ -202,14 +203,14 @@ margin-bottom: 32px;
 .news-time{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 24px;
     text-align: left;
 }
 .news-description{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 24px;
     text-align: left;
     margin-bottom: 32px;
@@ -220,10 +221,11 @@ margin-bottom: 32px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 22px;
     text-align: left;
     border: 0px;
+    cursor: pointer;
 }
 .public-speech{
     margin: 80px 244px 0px 76px;
@@ -248,7 +250,7 @@ margin-bottom: 32px;
     position: static;
     color: rgba(14, 14, 14, 0.8);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 24px;
     text-align: left;
 }
@@ -259,8 +261,80 @@ margin-bottom: 32px;
 .speaker{
     color: rgba(14, 14, 14, 0.8);
 font-size: 20px;
-font-weight: 700;
+font-weight: 700px;
 line-height: 24px;
 text-align: left;
 margin-bottom: 1px;
 }
+.donation{
+    margin: 80px 244px 0px 76px;
+}
+.donate{    
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 24px;}
+
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400px;
+line-height: 24px;
+text-align: center;
+margin-bottom: 32px;
+}
+.figure{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: white;
+    position: static;
+    width: 240px;
+    height: 128px;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 700px;
+    /* align-items: center; */
+    cursor: pointer;
+  
+}
+.figure:hover{background-color: lightslategrey;}
+.special-bg{background-color: #C6E4D6;}
+
+.amount{margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* text-align: center; */
+    padding: 40px 40px;
+
+}
+
+.text{box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    /* margin: 32px 0px; */
+    width: 100%;
+    height: 40px;
+text-align: center;
+border: none;
+padding: 20px 40px 20px 40px;
+margin-bottom: 32px;}
+
+.dn-btn{
+background-color: #006A50;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600px;
+line-height: 22px;
+text-align: left;
+padding: 17px 34px 17px 34px;
+border-radius: 8px;
+border: none;
+cursor: pointer;}
+
+.donation-button{display: flex;
+    justify-content: center;
+    align-items: center;}
